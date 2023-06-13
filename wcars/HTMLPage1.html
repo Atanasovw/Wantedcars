@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <style>      
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            grid-column: 1 / span 2;
+        }
+
+        h2 {
+            margin-top: 30px;
+        }
+
+        img {
+            display: block;
+            max-width: 300px;
+            margin: 0 auto;
+        }
+
+        .car-info {
+            grid-column: span 1;
+        }
+
+        hr {
+            margin: 40px 0;
+            grid-column: 1 / span 2;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(https://magazine.northeast.aaa.com/wp-content/uploads/2017/10/how-to-report-a-stolen-car-1.jpg?w=640);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+
+        h1, h2 {
+            text-align: center;
+        }
+
+        .car {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+
+            .car img {
+                max-width: 300px;
+                margin-bottom: 20px;
+            }
+
+        .car-info {
+            text-align: center;
+        }
+
+        hr {
+            margin: 40px 0;
+        }
+
+    </style>
+    <title>Издирвани коли</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1 style="color: white; position:relative; top: 40px" >Издирвани коли</h1>
+    <hr>
+
+    <div class="car">
+        <h2 style="color:white">Кола 1</h2>
+        <img src="car1.jpg" alt="Кола 1"style="position:relative; ">
+        <div class="car-info">
+            <p style="color:white">Регистрационен номер: РВ 2318РТ</p>
+            <p style="color:white">Номер на шаси: ASD213123123</p>
+            <p style="color:white">Номер на двигател: 16101dabx</p>
+            <p style="color:white">Марка: Sedalka</p>
+            <p style="color:white">Цвят: Червен</p>
+            <p style="color:white">Име на собственик: Петър Николов (спира кат джигит)</p>
+            <p style="color:white">Адрес на собственик: Карлово</p>
+        </div>
+    </div>
+
+    <div class="car">
+        <h2 style="color:white">Кола 2</h2>
+        <img src="car2.jpg" alt="Кола 2">
+        <div class="car-info">
+            <p style="color:white">Регистрационен номер: РВ7541НА</p>
+            <p style="color:white">Номер на шаси: 0987654321</p>
+            <p style="color:white">Номер на двигател: 1234509876</p>
+            <p style="color:white">Марка: Audi</p>
+            <p style="color:white">Цвят: Зелен</p>
+            <p style="color:white">Име на собственик: Ахмед</p>
+            <p style="color:white">Адрес на собственик: Пловдив, ул. Примерна 2</p>
+        </div>
+    </div>
+</body>
+</html>
